@@ -12,6 +12,7 @@ tree = discord.app_commands.CommandTree(client)
 @tree.command()
 async def ping(ctx):
     await ctx.send("Pong!")
+    # test
 
 @client.event
 async def on_ready():
